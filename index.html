@@ -20,7 +20,7 @@
 
     <header class="page-header">
       <div class="nav-contacts-container">
-        <nav>
+        <nav class="navigate">
           <!--Logo -->
           <a href="" class="logotyp"
             ><span class="logo-web">Web</span
@@ -28,15 +28,17 @@
           >
 
           <ul class="site-nav list">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link current">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
         <!--Contacts-->
         <ul class="contacts list">
-          <li><a href="" class="link">info@devstudio.com</a></li>
-          <li><a href="" class="link">+38 096 111 11 11</a></li>
+          <li class="item"><a href="" class="link">info@devstudio.com</a></li>
+          <li class="item"><a href="" class="link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -47,149 +49,158 @@
         <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
         <button type="button" class="button-hero">Заказать услугу</button>
       </section>
+
       <!--Advantages section-->
+
       <section class="advant">
         <div class="advant-container">
-        <ul>
-          <li>
-            <h3 class="advant-title">Внимание к деталям</h3>
-            <p class="advant-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="advant-title">Пунктуальность</h3>
-            <p class="advant-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="advant-title">Планирование</h3>
-            <p class="advant-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="advant-title">Современные технологии</h3>
-            <p class="advant-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </div>
+          <ul class="advant-list">
+            <li class="item">
+              <h3 class="advant-title">Внимание к деталям</h3>
+              <p class="advant-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advant-title">Пунктуальность</h3>
+              <p class="advant-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advant-title">Планирование</h3>
+              <p class="advant-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advant-title">Современные технологии</h3>
+              <p class="advant-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our activity section-->
       <section class="activity">
         <div class="activity-container">
-        <h2 class="activity-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/box1.png"
-              alt="image1"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/box2.png"
-              alt="image2"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/box3.png"
-              alt="image3"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </div>
+          <h2 class="activity-title">Чем мы занимаемся</h2>
+          <ul class="activity-boxes">
+            <li class="item">
+              <img
+                class="box"
+                src="./images/box1.png"
+                alt="image1"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item">
+              <img
+                class="box"
+                src="./images/box2.png"
+                alt="image2"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item">
+              <img
+                class="box"
+                src="./images/box3.png"
+                alt="image3"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Team section-->
       <section class="team">
         <div class="team-container">
-        <h2 class="team-title">Наша команда</h2>
-        <ul>
-          <li class="team-box">
-            <img
-              src="./images/img-demyanenko.jpg"
-              alt="Игорь Демьяненко"
-              width="270"
-              height="260"
-            />
-            <div>
-              <h3 class="team-person">Игорь Демьяненко</h3>
-              <p class="team-box-position">Product Designer</p>
-            </div>
-          </li>
-          <li class="team-box">
-            <img
-              src="./images/img-repyna.jpg"
-              alt="Ольга Репина"
-              width="270"
-              height="260"
-            />
-            <div>
-              <h3 class="team-person">Ольга Репина</h3>
-              <p class="team-box-position">Frontend Developer</p>
-            </div>
-          </li>
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-boxes">
+            <li class="box">
+              <img
+                class="team-image"
+                src="./images/img-demyanenko.jpg"
+                alt="Игорь Демьяненко"
+                width="270"
+                height="260"
+              />
+              <div>
+                <h3 class="team-person">Игорь Демьяненко</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
+            </li>
+            <li class="box">
+              <img
+                class="team-image"
+                src="./images/img-repyna.jpg"
+                alt="Ольга Репина"
+                width="270"
+                height="260"
+              />
+              <div>
+                <h3 class="team-person">Ольга Репина</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
+            </li>
 
-          <li class="team-box">
-            <img
-              src="./images/img-tarasov.jpg"
-              alt="Николай Тарасов"
-              width="270"
-              height="260"
-            />
-            <div>
-              <h3 class="team-person">Николай Тарасов</h3>
-              <p class="team-box-position">Marketing</p>
-            </div>
-          </li>
+            <li class="box">
+              <img
+                class="team-image"
+                src="./images/img-tarasov.jpg"
+                alt="Николай Тарасов"
+                width="270"
+                height="260"
+              />
+              <div>
+                <h3 class="team-person">Николай Тарасов</h3>
+                <p class="team-position">Marketing</p>
+              </div>
+            </li>
 
-          <li class="team-box">
-            <img
-              src="./images/img-ermacov.jpg"
-              alt="Михаил Ермаков"
-              width="270"
-              height="260"
-            />
-            <div>
-              <h3 class="team-person">Михаил Ермаков</h3>
-              <p class="team-box-position">UI Designer</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+            <li class="box">
+              <img
+                class="team-image"
+                src="./images/img-ermacov.jpg"
+                alt="Михаил Ермаков"
+                width="270"
+                height="260"
+              />
+              <div>
+                <h3 class="team-person">Михаил Ермаков</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--footer-->
     <footer class="footer">
       <div class="footer-container">
-      <a href="" class="logotyp-foot"
-        ><span class="logo-web-foot">Web</span
-        ><span class="logo-studio-foot">Studio</span></a
-      >
-      <address>
-        <ul class="adress-list">
-          <li>
-            <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li><a href="" class="adress-link">info@devstudio.com</a></li>
-          <li><a href="" class="adress-link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
-    </div>
+        <a href="" class="logotyp-foot"
+          ><span class="logo-web-foot">Web</span
+          ><span class="logo-studio-foot">Studio</span></a
+        >
+        <address>
+          <ul class="adress-list">
+            <li>
+              <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li><a href="" class="adress-link">info@devstudio.com</a></li>
+            <li><a href="" class="adress-link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
