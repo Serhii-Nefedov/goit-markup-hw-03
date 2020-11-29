@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
+    <title>Студия-тренинг</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -19,15 +19,14 @@
     <!--Header-->
 
     <header class="page-header">
-      <div class="nav-contacts-container">
-        <nav class="navigate">
-          <!--Logo -->
-          <a href="" class="logotyp"
-            ><span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span></a
+      <!--Навигация-->
+      <div class="container page-roof">
+        <nav class="site-nav">
+          <a href="./index.html" class="logo"
+            ><span class="web-logo">Web</span
+            ><span class="studio-logo">Studio</span></a
           >
-
-          <ul class="site-nav list">
+          <ul class="list">
             <li class="item"><a href="" class="link current">Студия</a></li>
             <li class="item">
               <a href="./portfolio.html" class="link">Портфолио</a>
@@ -35,50 +34,60 @@
             <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <!--Contacts-->
-        <ul class="contacts list">
+
+        <ul class="contacts">
           <li class="item"><a href="" class="link">info@devstudio.com</a></li>
           <li class="item"><a href="" class="link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
 
+    <!--Main-->
+
     <main>
-      <!--Hero section-->
+      <!--Hero-->
+
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button" class="button-hero">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <a href="" class="button-hero">Заказать услугу</a>
+        </div>
       </section>
 
-      <!--Advantages section-->
+      <!--Features-->
 
-      <section class="advant">
-        <div class="advant-container">
-          <ul class="advant-list">
-            <li class="item">
-              <h3 class="advant-title">Внимание к деталям</h3>
-              <p class="advant-text">
+      <section class="features">
+        <h2 class="title-hidden">Чем мы занимаемся</h2>
+
+        <div class="container">
+          <ul class="list">
+            <li class="box">
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="features-subtitle">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
-              <h3 class="advant-title">Пунктуальность</h3>
-              <p class="advant-text">
+            <li class="box">
+              <h3 class="title">Пунктуальность</h3>
+              <p class="features-subtitle">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
-              <h3 class="advant-title">Планирование</h3>
-              <p class="advant-text">
+            <li class="box">
+              <h3 class="title">Планирование</h3>
+              <p class="features-subtitle">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
-              <h3 class="advant-title">Современные технологии</h3>
-              <p class="advant-text">
+            <li class="box">
+              <h3 class="title">Современные технологии</h3>
+              <p class="features-subtitle">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -86,118 +95,160 @@
           </ul>
         </div>
       </section>
-      <!--Our activity section-->
+
+      <!--Activity-->
+
       <section class="activity">
-        <div class="activity-container">
-          <h2 class="activity-title">Чем мы занимаемся</h2>
-          <ul class="activity-boxes">
-            <li class="item">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li class="card">
               <img
-                class="box"
-                src="./images/box1.png"
-                alt="image1"
+                class="image"
+                src="./images/img-box1.jpg"
+                alt="десктопные приложения"
                 width="370"
-                height="294"
               />
+              <!-- <h3>Десктопные приложения</h3>-->
             </li>
-            <li class="item">
+            <li class="card">
               <img
-                class="box"
-                src="./images/box2.png"
-                alt="image2"
+                class="image"
+                src="./images/img-box2.jpg"
+                alt="мобильные приложения"
                 width="370"
-                height="294"
               />
+              <!-- <h3>Мобильные приложения</h3>-->
             </li>
-            <li class="item">
+            <li class="card">
               <img
-                class="box"
-                src="./images/box3.png"
-                alt="image3"
+                class="image"
+                src="./images/img-box3.jpg"
+                alt="дизайнерские решения"
                 width="370"
-                height="294"
               />
+              <!-- <h3>Дизайнерские решения</h3>-->
             </li>
           </ul>
         </div>
       </section>
-      <!--Team section-->
+
+      <!--Team-->
+
       <section class="team">
-        <div class="team-container">
-          <h2 class="team-title">Наша команда</h2>
-          <ul class="team-boxes">
-            <li class="box">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list">
+            <li class="card">
               <img
-                class="team-image"
+                class="image"
                 src="./images/img-demyanenko.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
                 height="260"
               />
-              <div>
-                <h3 class="team-person">Игорь Демьяненко</h3>
-                <p class="team-position">Product Designer</p>
+              <div class="card-name">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p class="team-subtitle">Product Designer</p>
               </div>
+              <!-- <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebooke link">Facebooke</a></li>
+              <li><a href="" aria-label="In link">In</a></li>
+            </ul>
+          -->
             </li>
-            <li class="box">
+            <li class="card">
               <img
-                class="team-image"
+                class="image"
                 src="./images/img-repyna.jpg"
                 alt="Ольга Репина"
                 width="270"
                 height="260"
               />
-              <div>
-                <h3 class="team-person">Ольга Репина</h3>
-                <p class="team-position">Frontend Developer</p>
+              <div class="card-name">
+                <h3 class="title">Ольга Репина</h3>
+                <p class="team-subtitle">Frontend Developer</p>
               </div>
+              <!-- <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebooke link">Facebooke</a></li>
+              <li><a href="" aria-label="In link">In</a></li>
+            </ul>
+          -->
             </li>
-
-            <li class="box">
+            <li class="card">
               <img
-                class="team-image"
+                class="image"
                 src="./images/img-tarasov.jpg"
                 alt="Николай Тарасов"
                 width="270"
                 height="260"
               />
-              <div>
-                <h3 class="team-person">Николай Тарасов</h3>
-                <p class="team-position">Marketing</p>
+              <div class="card-name">
+                <h3 class="title">Николай Тарасов</h3>
+                <p class="team-subtitle">Marketing</p>
               </div>
+              <!-- <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebooke link">Facebooke</a></li>
+              <li><a href="" aria-label="In link">In</a></li>
+            </ul>
+          -->
             </li>
-
-            <li class="box">
+            <li class="card">
               <img
-                class="team-image"
+                class="image"
                 src="./images/img-ermacov.jpg"
                 alt="Михаил Ермаков"
                 width="270"
                 height="260"
               />
-              <div>
-                <h3 class="team-person">Михаил Ермаков</h3>
-                <p class="team-position">UI Designer</p>
+              <div class="card-name">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p class="team-subtitle">UI Designer</p>
               </div>
+              <!-- <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebooke link">Facebooke</a></li>
+              <li><a href="" aria-label="In link">In</a></li>
+            </ul>
+          -->
             </li>
           </ul>
         </div>
       </section>
-    </main>
-    <!--footer-->
+
+      <!--Clients-->
+
+      <!-- <section class="clients">
+        <h2>Постоянные клиенты</h2>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </section>
+    --></main>
+
+    <!--Footer-->
+
     <footer class="footer">
-      <div class="footer-container">
-        <a href="" class="logotyp-foot"
-          ><span class="logo-web-foot">Web</span
-          ><span class="logo-studio-foot">Studio</span></a
+      <div class="container">
+        <a href="" class="logo-foot"
+          ><span class="web-logo">Web</span
+          ><span class="studio-foot-logo">Studio</span></a
         >
         <address>
-          <ul class="adress-list">
-            <li>
-              <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li><a href="" class="adress-link">info@devstudio.com</a></li>
-            <li><a href="" class="adress-link">+38 096 111 11 11</a></li>
+          <ul class="adress">
+            <li><a href="" class="link">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a href="" class="contact-link">info@example.com</a></li>
+            <li><a href="" class="contact-link">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
