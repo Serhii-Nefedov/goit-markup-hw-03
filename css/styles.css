@@ -12,6 +12,7 @@
 }
 body {
   width: 1600px;
+
   background-color: var(--backrgound-color);
   color: var(--title-text-color);
 
@@ -25,7 +26,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 
 .image {
@@ -33,9 +33,7 @@ body {
   max-width: 100%;
   height: auto;
 }
-/*.list {
-  list-style: none;
-}*/
+
 ul {
   list-style: none;
 }
@@ -47,6 +45,7 @@ ul {
 .button-hero {
   text-decoration: none;
 }
+
 .site-nav,
 .contacts,
 .list,
@@ -58,6 +57,7 @@ ul {
 }
 
 /* Header */
+
 /* Навигация */
 .page-roof,
 .site-nav {
@@ -67,6 +67,7 @@ ul {
 .logo,
 .logo-foot {
   display: block;
+
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -109,6 +110,7 @@ ul {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
   color: var(--subtitle-text-color);
 
   font-weight: 500;
@@ -116,14 +118,17 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .contacts .link:hover {
   color: var(--accent-color);
 }
+
 .site-nav .link:focus,
 .contacts .link:focus {
   color: var(--accent-color);
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -138,10 +143,11 @@ ul {
   text-align: center;
   background-color: var(--hero-footer-background-color);
 }
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 0;
-  outline: 2px solid tomato;
+
   color: var(--logo-web-studio-color);
 
   font-weight: 900;
@@ -175,8 +181,6 @@ ul {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  background-color: rosybrown;
 }
 
 .features .title-hidden,
@@ -191,10 +195,6 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.features .box {
-  outline: 2px solid rgb(43, 255, 0);
-  min-width: 270px;
 }
 
 .features .box + .box {
@@ -237,10 +237,11 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+
 /* Activity */
+
 .activity {
   padding-bottom: 94px;
-  background-color: var(--accent-color);
 }
 
 .activity .list {
@@ -254,7 +255,6 @@ ul {
   background-color: var(--team-background-color);
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: yellowgreen;
 }
 
 .team .list {
@@ -287,7 +287,6 @@ ul {
   padding-bottom: 30px;
   background-color: var(--backrgound-color);
 }
-/* Clients */
 
 /* Footer */
 .footer {
@@ -332,18 +331,20 @@ ul {
 /* Portfolio styles*/
 
 .projects {
-  background-color: rosybrown;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filters {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
-  outline: 2px solid greenyellow;
 }
+
 .filters .item + .item {
   margin-left: 8px;
 }
+
 .button {
   display: inline-block;
   padding: 6px 22px;
@@ -374,7 +375,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 39px;
-  outline: 2px solid black;
 }
 
 .galery-card {
@@ -389,10 +389,6 @@ ul {
   margin-right: 0;
 }
 
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .projects .title {
   margin-top: 0;
   margin-bottom: 0;
